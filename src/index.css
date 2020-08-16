@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face{
+  font-family: 'Quicksand';
+  src: url('./components/assets/fonts/Quicksand-Regular_afda0c4733e67d13c4b46e7985d6a9ce.ttf')
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+}
